@@ -1,0 +1,14 @@
+-r
+C:\Users\Raphy\Desktop\C\cpp\vcproj\My Amplifier XE Results - ridge_reg_norm_eq_dense_batch\r001ah
+--target=host
+--itt-config=frame
+--stack-stitching
+--data-limit-mb=500
+--mrte-type=java,dotnet
+--event-config=CPU_CLK_UNHALTED.THREAD:sa=2400000,CPU_CLK_UNHALTED.REF_TSC:sa=2400000,INST_RETIRED.ANY:sa=2400000
+--sample-after-multiplier=1.0
+--event-mux
+--mrte-mode=auto
+--etw-config=clr,js
+--
+C:\Users\Raphy\Desktop\C\cpp\x64\Release.static.threaded\ridge_reg_norm_eq_dense_batch.exe
